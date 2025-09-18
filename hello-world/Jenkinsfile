@@ -4,6 +4,8 @@ pipeline {
         stage('Static Analysis') {
             steps {
                 echo 'Run the static analysis to the code' 
+                echo 'Carol dsilva' 
+
             }
         }
         stage('Compile') {
